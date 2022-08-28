@@ -8,7 +8,7 @@ Tasks:
 
 Download the data. Create an account with Kaggle (if you have not previously
 done so) and download the Heart Disease dataset. You should split the 303 in-
-stances into training and test sets (8:2) for Naive Bayes classier. While for the
+stances into training and test sets (8:2) for Naive Bayes classifier. While for the
 k-NN classifier, you need to split the instances into training, validation, and test
 sets as (6:2:2). The validation set is used to fine-tune the hyper-parameter k. Data
 can be downloaded from https://www.kaggle.com/ronitf/heart-disease-uci.
@@ -27,5 +27,5 @@ values (through one-hot encoding) before applying the k-NN algorithm.
 
 Each continuous feature should be normalized separately from all other features.
 Speciacally, for both training and testing instances, each feature should be trans-
-formed using function F(X) = (X 􀀀 mean)=std, using the mean and std of the
+formed using function F(X) = (X - mean)/std, using the mean and std of the
 values of that feature on the training data.
